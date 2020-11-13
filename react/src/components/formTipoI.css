@@ -1,0 +1,35 @@
+			*
+				{
+					box-sizing: border-box;
+					font-family: Roboto, Arial;
+					margin: 0 0 0 0;
+				}
+			form
+				{	display: flex;
+					flex-direction: column;
+					align-items: center;
+					height: 50vh;
+					width: 100%;
+					padding: 15px;
+				}
+			h5
+				{
+					font-size: 24px;
+					line-height: 89px;
+					color: #606060;
+				}
+			textarea
+				{
+					height: 172px;
+					background: #F0EBEB;
+					border-radius: 5px;
+					border: none;
+					box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+				}
+			@media (max-width: 380px)
+				{
+					textarea
+						{
+							width: 230px;
+						}
+				}

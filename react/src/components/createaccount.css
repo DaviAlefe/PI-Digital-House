@@ -1,0 +1,80 @@
+*{
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.outterwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0;
+}
+
+.innerwrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  margin: 0px !important;
+  padding: 15px;
+  width: 500px;
+  height: 700px;
+  background-color: #84DCC6;
+}
+
+label.createAccount {
+  width: 300px;
+  text-align: left;
+  padding: 4px;
+  margin-bottom: 0;
+  color:#606060;
+  font-size: 24;
+  font-weight: bold;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+input:hover{
+  opacity: 0.7;
+}
+
+::placeholder {
+  color: white ;
+}
+
+div.termsagree {
+  display: flex;
+  flex-direction: row;
+  width: 300px;
+  margin: 10px 0px;
+  justify-content: space-between;
+}
+
+input.termsagree {
+  padding: 0;
+  margin: 0;
+  width: 20px;
+  box-shadow: none;
+  ;
+}
+
+label.termsagree {
+  margin-left: 15px;
+}
+
+@media (max-width: 500px) {
+  .outterwrapper, .innerwrapper, div.termsagree {
+    width:100%;
+  }
+
+  label.createAccount {
+    width: 200px !important;
+  }
+}

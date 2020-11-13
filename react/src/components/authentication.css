@@ -1,0 +1,71 @@
+
+.wrapper.auth {
+  margin: auto;
+  background-color: aliceblue;
+  width: 70vh;
+  height: 100 vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form.auth {
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #84DCC6;
+  border: 0px !important;
+}
+
+input.auth {
+  background-color: #cccccc;
+  border-radius: 20px;
+  width: 300px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+/* white placeholder */
+::placeholder {
+  color: white;
+}
+
+/* Set a style for all buttons */
+button.auth {
+  background-color: #808080;
+  color: white;
+  padding: 14px 20px;
+  margin: 5px 0 !important;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  width: 200px !important;
+}
+
+/* Add a hover effect for buttons */
+button:hover {
+  opacity: 0.8;
+}
+
+
+/* Avatar image */
+img.auth {
+  width: 500px;
+}
+
+
+
+/* Add responsiveness */
+@media (max-width: 500px) {
+  .wrapper.auth, form.auth, img.auth {
+    width:100%;
+  }
+
+  input.auth {
+    width: 200px !important;
+  }
+}
